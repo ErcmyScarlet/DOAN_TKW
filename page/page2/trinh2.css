@@ -1,0 +1,99 @@
+.back-ground{
+    background-color: rgb(255, 255, 254);
+}
+
+.logo {
+  font-size: 50px;        
+  color: #000000;         
+  font-weight: 700px;       
+  letter-spacing: 2px;     
+  font-family: 'Arial', sans-serif;
+}
+
+ .container{
+    margin-right: 5px;
+    text-align: right;
+    display: block;
+  }
+  
+.propose{
+  font-size: 40px;
+  margin-left: 15px;
+  font-family: 'Arial', sans-serif;
+  color: #000;
+}
+.image {
+  width: 100%;
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.product-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.product-item img {
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover img {
+  transform: scale(1.05); 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-item:hover .overlay {
+  opacity: 1;
+}
+
+h6 {
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer-logo {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+
+.social-icons i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bi-person, .bi-cart {
+  cursor: pointer;
+}
