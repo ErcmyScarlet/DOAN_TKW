@@ -1,0 +1,72 @@
+.back-ground {
+  background-color: rgb(255, 255, 254);
+}
+
+.logo {
+  font-size: 50px;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Arial', sans-serif;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+}
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.footer-logo {
+  font-weight: bold;
+  font-size: 28px;
+}
+.bi-person,
+.bi-cart {
+  cursor: pointer;
+  color: #000;
+}
+.social-icons i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+:root{
+  --gray-1:#111; --gray-6:#666; --gray-9:#999; --line:#eee;
+  --pink:#d91c5c; --btn:#111; --bg:#fafafa; --chip:#f4f4f4;
+}
+*{box-sizing:border-box}
+html,body{margin:0;color:var(--gray-1);font:16px/1.6 "Inter",system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#fff}
+img{display:block;max-width:100%;height:auto}
+a{text-decoration:none;color:inherit}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+
+.mini-top{border-bottom:1px solid var(--line);padding:10px 0;color:var(--gray-6);font-size:14px}
+.mini-top .container{display:flex;gap:10px;align-items:center}
+.mini-top .breadcrumbs a{color:var(--gray-6)}
+.mini-top .breadcrumbs span{opacity:.6;margin:0 6px}
+
+.pd-wrap{display:grid;grid-template-columns:520px 1fr;gap:32px;margin:24px 0 48px}
+@media (max-width: 992px){ .pd-wrap{grid-template-columns:1fr} }
+
+.gallery{display:grid;grid-template-columns:110px 1fr;gap:16px}
+@media (max-width: 600px){ .gallery{grid-template-columns:80px 1fr} }
+
+.thumbs{display:flex;flex-direction:column;gap:12px;max-height:640px;overflow:auto;padding-right:6px}
+.thumb{border:1px solid var(--line);border-radius:8px;overflow:hidden;cursor:pointer;opacity:.7;transition:.2s}
+.thumb.active,.thumb:hover{opacity:1;border-color:#ccc}
+
+.hero{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;aspect-ratio:3/4;display:flex;align-items:center;justify-content:center}
+.hero img{width:100%;height:100%;object-fit:cover}
+
+.pd-info .sku{color:var(--gray-9);font-size:14px;margin-bottom:6px}
+.pd-info .rating{color:#f8b400;font-size:14px;margin-left:8px}
+.pd-title{font-size:22px;font-weight:800;margin:2px 0 8px}
+.price-line{display:flex;align-items:center;gap:14px;margin:6px 0 12px}
+.price-now{font-size:28px;font-weight:900}
+.price-old{color:var(--gray-9);text
