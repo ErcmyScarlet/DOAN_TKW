@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.logo {
+  font-size: 50px;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+}
+
+
+.header-border {
+  border-bottom: 5px solid #000000;
+  background-color: white;
+  position: relative;
+  z-index: 10; 
+}
+
+
+.about-content {
+  flex: 1;
+  background-image: url("/gioithieu/pngtree-red-modern-fashion-simple-creative-background-image_15519727.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; 
+  padding: 50px 0;
+}
+.about-content h2,
+.about-content p {
+  color: white;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  margin-top: auto;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer-logo {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.container {
+  margin-right: 5px;
+  text-align: right;
+  display: block;
+}
+
+.social-icons i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.icon1 {
+  font-size: 200px;
+  color: white;
+}
